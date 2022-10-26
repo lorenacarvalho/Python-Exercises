@@ -1,16 +1,16 @@
-op = input('Qual a operação? ')
-valor_1 = int(input('Digite o primeiro valor: '))
-valor_2 = int(input('Digite o segundo valor: '))
-if op == 'soma':
+op = input('Which operation? ')
+valor_1 = int(input('Type the first value: '))
+valor_2 = int(input('Type the second value: '))
+if op == 'sum':
     s = valor_1 + valor_2
     print(s)
-elif op == 'subtração':
+elif op == 'sub':
     sub = valor_1 - valor_2
     print(sub)
-elif op == 'multiplicação':
+elif op == 'multi':
     mult = valor_1 * valor_2
     print(mult)
-elif op == 'divisão':
+elif op == 'div':
     div = valor_1 / valor_2
     print(div)
-
+    
