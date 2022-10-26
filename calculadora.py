@@ -13,4 +13,5 @@ elif op == 'multi':
 elif op == 'div':
     div = valor_1 / valor_2
     print(div)
-    
+else: 
+    print('This operation is invalid')
