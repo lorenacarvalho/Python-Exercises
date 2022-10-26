@@ -1,6 +1,6 @@
-op = input('Which operation? ')
 valor_1 = int(input('Type the first value: '))
 valor_2 = int(input('Type the second value: '))
+op = input('Which operation? ')
 if op == 'sum':
     s = valor_1 + valor_2
     print(s)
