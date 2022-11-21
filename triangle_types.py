@@ -1,9 +1,6 @@
 import sys
 primeira_entrada = input().split()
-entrada_float = []
-
-for i in primeira_entrada:
-    entrada_float.append(float(i))
+entrada_float = [float(i) for i in primeira_entrada]
 
 lados_ordenados = sorted(entrada_float, reverse=True)
 
@@ -24,4 +21,4 @@ if A == B == C :
     print('TRIANGULO EQUILATERO')
 if (A == B != C) or (A != B == C) or (A == C != B):
     print('TRIANGULO ISOSCELES')
-    
+        
